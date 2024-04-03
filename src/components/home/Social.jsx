@@ -4,13 +4,13 @@ const Home = () => {
     return (
         <div className="home__social">
             <a href="https://www.linkedin.com/in/michelle-chi/" className="home__social-icon" target="_blank">
-                <i class="uil uil-linkedin"></i>
-            </a>
-            <a href="" className="home__social-icon" target="_blank">
-                <i class="uil uil-dribble"></i>
+                <i class="uil uil-linkedin-alt"></i>
             </a>
             <a href="https://github.com/michellechi" className="home__social-icon" target="_blank">
                 <i class="uil uil-github-alt"></i>
+            </a>
+            <a href="mailto:mgchi@calpoly.com" className="home__social-icon" target="_blank">
+                <i class="uil uil-envelope"></i>
             </a>
         </div>
     )
