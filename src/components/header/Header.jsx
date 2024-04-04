@@ -9,8 +9,6 @@ const Header = () => {
   const [theme, setTheme] = useState("light_theme");
 
   const [li, setli] = useState("bx bxs-moon");
-  // let li = "";
-  // let di = "bx bx-sun";
 
   const toggleTheme = () => {
     if (theme === "light_theme") {
@@ -46,6 +44,7 @@ const Header = () => {
                 <i className="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#about"
@@ -57,6 +56,7 @@ const Header = () => {
                 <i className="uil uil-user nav__icon"></i> About
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#skills"
@@ -70,6 +70,7 @@ const Header = () => {
                 <i className="uil uil-file-alt nav__icon"></i> Skills
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#projects"
@@ -83,12 +84,13 @@ const Header = () => {
                 <i className="uil uil-scenery nav__icon"></i> Projects
               </a>
             </li>
+
             <li className="nav__item">
               <a
-                href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                href="#qualification"
+                onClick={() => setActiveNav("#qualification")}
                 className={
-                  activeNav === "#skills"
+                  activeNav === "#qualification"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -96,12 +98,13 @@ const Header = () => {
                 <i className="uil uil-file-alt nav__icon"></i> Qualifications
               </a>
             </li>
+
             <li className="nav__item">
               <a
-                href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                href="#contact"
+                onClick={() => setActiveNav("#contact")}
                 className={
-                  activeNav === "#skills"
+                  activeNav === "#contact"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
