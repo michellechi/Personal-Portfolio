@@ -12,7 +12,6 @@ const Softskills = () => {
 
                 <div>
                     <h3 className="skills__name">Windows</h3>
-                    <span className="skills__level">11 Beta</span>
                 </div>
 
                 </div>
@@ -22,7 +21,6 @@ const Softskills = () => {
 
                 <div>
                     <h3 className="skills__name">Mac OS</h3>
-                    <span className="skills__level">Sonoma </span>
                 </div>
 
                 </div>
@@ -32,7 +30,6 @@ const Softskills = () => {
 
                 <div>
                     <h3 className="skills__name">Linux</h3>
-                    <span className="skills__level">Ubuntu/Kali</span>
                 </div>
 
                 </div>
@@ -43,8 +40,7 @@ const Softskills = () => {
                 <i class='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">Problem</h3>
-                    <span className="skills__level">Solving</span>
+                    <h3 className="skills__name">Problem Solving</h3>
                 </div>
 
                 </div>
@@ -54,7 +50,6 @@ const Softskills = () => {
 
                 <div>
                     <h3 className="skills__name">Creativity </h3>
-                    <span className="skills__level">UI/UX</span>
                 </div>
 
                 </div>
@@ -64,7 +59,6 @@ const Softskills = () => {
 
                 <div>
                     <h3 className="skills__name">Teamwork</h3>
-                    <span className="skills__level">Collabration</span>
                 </div>
 
                 </div>

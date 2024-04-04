@@ -93,7 +93,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"></i> Resume
+                <i className="uil uil-file-alt nav__icon"></i> Qualifications
               </a>
             </li>
             <li className="nav__item">

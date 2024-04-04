@@ -73,6 +73,10 @@
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
+.spacer {
+    height: 100px;
+}
+
 @keyframes profile__animate {
     0% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -120,10 +124,6 @@
     .home__content {
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.25rem;
-    }
-    .home__hand{
-        width: 26px;
-        height: 26px;
     }
     .home__subtitle {
         padding-left: 3.75rem;
@@ -176,9 +176,5 @@
     .home__img {
         width: 180px;
         height: 180px;
-    }
-    .home__hand {
-        width: 22px;
-        height: 22px;
     }
 }
