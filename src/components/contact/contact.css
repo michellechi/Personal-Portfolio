@@ -1,6 +1,7 @@
 .contact__container {
     justify-content: center;
     align-content: center;
+
 }
 
 .contact__title {
@@ -18,6 +19,7 @@
 
 .contact__form {
     width: 360px;
+    margin-bottom: 70px;
 }
 
 .contact__form-div {
