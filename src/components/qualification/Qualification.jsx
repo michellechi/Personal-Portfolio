@@ -12,6 +12,7 @@ const Qualification = ({ theme }) => {
   const toggleTab = (index) => {
     setToggleState(index);
   };
+
   return (
     <div>
       <section className="qualification section" id="qualification">
@@ -27,7 +28,7 @@ const Qualification = ({ theme }) => {
                     ? "qualification__button qualification-button-dark button--flex "
                     : "qualification__button button--flex"
                   : theme
-                  ? "qualification__button qualification-button-dark   button--flex"
+                  ? "qualification__button qualification-button-dark button--flex"
                   : "qualification__button button--flex"
               }
               onClick={() => toggleTab(1)}
@@ -64,6 +65,7 @@ const Qualification = ({ theme }) => {
                   : "qualification__content"
               }
             >
+
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">California Polytechnic State University, San Luis Obispo</h3>
@@ -77,7 +79,6 @@ const Qualification = ({ theme }) => {
                   <span className="qualification__line"></span>
                 </div>
               </div>
-            </div>
 
               <div className="qualification__data">
                 <div></div>
@@ -108,6 +109,8 @@ const Qualification = ({ theme }) => {
                   <span className="qualification__line"></span>
                 </div>
               </div>
+              
+            </div>
 
             <div
               className={
