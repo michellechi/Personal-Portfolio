@@ -66,10 +66,10 @@ const Qualification = ({ theme }) => {
             >
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title"> Marina High School </h3>
-                  <span className="qualification__subtitle">Huntington Beach, CA</span>
+                  <h3 className="qualification__title">California Polytechnic State University, San Luis Obispo</h3>
+                  <span className="qualification__subtitle">San Luis Obispo, CA</span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> 2017 - 2021
+                    <i className="uil uil-calendar-alt"></i> 2021 - 2025
                   </div>
                 </div>
                 <div>
@@ -77,6 +77,7 @@ const Qualification = ({ theme }) => {
                   <span className="qualification__line"></span>
                 </div>
               </div>
+            </div>
 
               <div className="qualification__data">
                 <div></div>
@@ -96,10 +97,10 @@ const Qualification = ({ theme }) => {
 
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">California Polytechnic State University, San Luis Obispo</h3>
-                  <span className="qualification__subtitle">San Luis Obispo, CA</span>
+                  <h3 className="qualification__title"> Marina High School </h3>
+                  <span className="qualification__subtitle">Huntington Beach, CA</span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> 2021 - 2025
+                    <i className="uil uil-calendar-alt"></i> 2017 - 2021
                   </div>
                 </div>
                 <div>
@@ -107,7 +108,6 @@ const Qualification = ({ theme }) => {
                   <span className="qualification__line"></span>
                 </div>
               </div>
-            </div>
 
             <div
               className={
