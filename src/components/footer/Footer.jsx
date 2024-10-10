@@ -22,13 +22,13 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.linkedin.com/in/michelle-chi/" className="footer__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/michelle-chi/" className="footer__social-link">
                         <i class="bx bxl-linkedin"></i>
                     </a>
-                    <a href="https://www.instagram.com/michelle_.chi/" className="footer__social-link" target="_blank">
+                    <a href="https://www.instagram.com/michelle_.chi/" className="footer__social-link">
                         <i class="bx bxl-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com/michelle.chi.503/" className="footer__social-link" target="_blank">
+                    <a href="https://www.facebook.com/michelle.chi.503/" className="footer__social-link">
                         <i class="bx bxl-facebook"></i>
                     </a>
                 </div>

@@ -11,7 +11,7 @@ const WorkItems = ({ item, theme }) => {
       key={item.id}
     >
       <div className="work__img-container">
-        <img src={item.image} className="work__img" />
+        <img src={item.image} className="work__img" alt=""/>
       </div>
 
       <div className="work__text">
