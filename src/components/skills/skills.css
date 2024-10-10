@@ -2,7 +2,7 @@
     grid-template-columns: repeat(3, 350px);
     column-gap: 3rem;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
   
   .sklls__content {
@@ -10,7 +10,7 @@
     border: var(--border-rad);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   
   .skills__titlle {
