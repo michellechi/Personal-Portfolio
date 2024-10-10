@@ -7,7 +7,7 @@ const Data = () => {
             </h1>
             <h3 className="home__subtitle">Software Developer</h3>
             <p className="home__description">
-                I am a third-year Computer Science student at Cal Poly SLO, and I am passionate and dedicated to my work in software development.
+                I am a fourth-year Computer Science student at Cal Poly SLO, and I am passionate and dedicated to my work in full-stack software development.
             </p>
             <a href="#contact" className="button button--flex">
                 Contact Me

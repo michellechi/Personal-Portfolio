@@ -10,7 +10,7 @@ const Info = () => {
       </div>
       <div className="about__box">
         <i class="bx bxs-graduation about__icon"></i>
-        <h3 className="about__title">Third-Year</h3>
+        <h3 className="about__title">Fourth-Year</h3>
         <span className="about__subtitile">B.S. CS</span>
       </div>
       <div className="about__box">
