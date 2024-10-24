@@ -118,12 +118,42 @@ const Qualification = ({ theme }) => {
                   ? "qualification__content qualification__content-active"
                   : "qualification__content"
               }>
+
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Web Data Entry Assistant </h3>
+                  <h3 className="qualification__title">Software Engineer Intern</h3>
+                  <span className="qualification__subtitle">JackRabbit</span>
+                  <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i> September 2024 - Present
+                  </div>
+                </div>
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+              </div>  
+              
+              <div className="qualification__data">
+                <div></div>
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 className="qualification__title">Data Platform Assistant</h3>
                   <span className="qualification__subtitle">Cal Poly College of Engineering</span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> April 2024 - Present
+                  </div>
+                </div>
+              </div>
+
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">IT Intern</h3>
+                  <span className="qualification__subtitle">Terumo Neuro</span>
+                  <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i> June 2024 - August 2024
                   </div>
                 </div>
                 <div>
@@ -139,7 +169,7 @@ const Qualification = ({ theme }) => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualification__title">IT Client Services Student Assistant</h3>
+                  <h3 className="qualification__title">Information Technology Assistant</h3>
                   <span className="qualification__subtitle">Cal Poly Information Technology Services</span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> May 2023 - Present
