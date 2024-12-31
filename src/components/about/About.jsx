@@ -15,11 +15,11 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Seeking an opportunity in a dynamic and forward- thinking
-            organization, I am eager to contribute to projects that drive
-            innovation and growth. With a focus on continuous learning and a
-            collaborative approach, I am determined to excel and thrive in a
-            stimulating and rewarding environment.
+          I am looking for opportunities in a growing organization focused 
+          on innovation and teamwork. I enjoy learning new things and 
+          working with others to create meaningful projects. My goal is 
+          to grow and make a positive impact in a supportive and 
+          challenging environment.
           </p>
 
           <a href={CV} target="_blank" rel="noopener noreferrer" className="button button--flex">

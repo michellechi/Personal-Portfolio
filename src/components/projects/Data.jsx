@@ -1,9 +1,8 @@
-import polybuddy from "../../assets/work1.jpg";
-import library from "../../assets/work2.jpg";
-import game from "../../assets/work3.jpg";
-import bitmap from "../../assets/work4.jpg";
-import simulation from "../../assets/work5.jpg";
-import jackrabbit from "../../assets/work1.jpg";
+import polybuddy from "../../assets/polybuddy.jpg";
+import library from "../../assets/library.jpg";
+import apptrak from "../../assets/apptrak.jpg";
+import bitmap from "../../assets/bitmap.jpg";
+import simulation from "../../assets/simulation.jpg";
 
 export const projectsData = [
   {
@@ -26,19 +25,19 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: game,
-    title: "2048 Game",
+    image: apptrak,
+    title: "AppTrak",
     description:
-      "This is a personal rendition of the classic game 2048.",
+      "AppTrak is a streamlined job application tracker designed to simplify and organize the application process.",
     demo: "",
-    code: "https://github.com/michellechi/2048-PyGame",
+    code: "https://github.com/michellechi/csc437-job-app-tracker",
   },
   {
     id: 4,
     image: bitmap,
     title: "Bitmap Image Encoding/Decoding",
     description:
-      "Webshop is an e-commerce website with intuitive design and a simple shopping experience that puts focus on the products.",
+      "Bitmap Image Encoding/Decoding is the process of converting image data into a binary format for storage and reconstructing the original image, often used in BMP file handling.",
     demo: "",
     code: "https://github.com/michellechi/BMP-Image-Encoding-Decoding",
   },
@@ -47,17 +46,8 @@ export const projectsData = [
     image: simulation,
     title: "Interactive Game Simulation",
     description:
-      "Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. ",
+      "An interactive game simulation where dynamic entities like DUDEs, FAIRYs, and growing TREES interact within defined rules, navigating, transforming, and influencing their environment.",
     demo: "",
     code: "https://github.com/michellechi/InteractiveVirtualSimulation",
-  },
-  {
-    id: 6,
-    image: jackrabbit,
-    title: "Jackrabbit Marketplace",
-    description:
-      "Ondrive is an online platform with easy-to-use interface that allows users to rent cars for personal or business use.",
-    demo: "https://www.jackrabt.com/",
-    code: "",
-  },
+  }
 ];

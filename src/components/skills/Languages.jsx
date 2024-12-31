@@ -103,7 +103,7 @@ const Languages = () => {
                 <i class='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">Node.js</h3>
+                    <h3 className="skills__name">PostgreSQL</h3>
                 </div>
 
                 </div>
@@ -112,7 +112,7 @@ const Languages = () => {
                 <i class='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">Express</h3>
+                    <h3 className="skills__name">Typescript</h3>
                 </div>
 
                 </div>

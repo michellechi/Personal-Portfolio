@@ -47,7 +47,7 @@ const Tools = () => {
                 <i class='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">Canva</h3>
+                    <h3 className="skills__name">AWS</h3>
                 </div>
 
                 </div>
