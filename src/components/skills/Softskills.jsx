@@ -3,7 +3,7 @@ import React from 'react'
 const Softskills = () => {
   return (
     <div className="sklls__content">
-        <h3 className="skills__titlle">OS / SoftSkills</h3>
+        <h3 className="skills__title">OS / SoftSkills</h3>
 
         <div className="skills__box">
             <div className="skills__group">

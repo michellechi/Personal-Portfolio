@@ -3,7 +3,7 @@ import React from 'react'
 const Languages = () => {
   return (
     <div className="sklls__content">
-        <h3 className="skills__titlle">Languages / Databases</h3>
+        <h3 className="skills__title">Programming Languages</h3>
 
         <div className="skills__box">
             <div className="skills__group">

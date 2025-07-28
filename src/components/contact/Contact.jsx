@@ -23,7 +23,7 @@ const Contact = () => {
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Contact Me</h2>
-            <span className="section__subtitle">Get In Touch</span>
+            {/* <span className="section__subtitle">Get In Touch</span> */}
 
             <div className="contact__container contact__content container grid">
                 <form ref={form} onSubmit={sendEmail} className="contact__form">

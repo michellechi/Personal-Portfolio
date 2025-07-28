@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImage from "../../assets/about_pic.png";
+import AboutImage from "../../assets/about_picture.png";
 import CV from "../../assets/resume.pdf"
 import Info from "./Info";
 
@@ -8,18 +8,17 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      {/* <span className="section__subtitle">My Introduction</span> */}
 
       <div className="about__container container grid">
         <img src={AboutImage} alt="" className="about__img" />
         <div className="about__data">
           <Info />
           <p className="about__description">
-          I am looking for opportunities in a growing organization focused 
-          on innovation and teamwork. I enjoy learning new things and 
-          working with others to create meaningful projects. My goal is 
-          to grow and make a positive impact in a supportive and 
-          challenging environment.
+          I'm an aspiring Data Scientist seeking opportunities in a collaborative and innovative environment. 
+          I'm driven by continuous learning and thrive in environments where I can grow alongside experienced 
+          professionals. With a strong foundation in data science and business intelligence, I'm excited to 
+          contribute to impactful projects that make a positive difference through data.
           </p>
 
           <a href={CV} target="_blank" rel="noopener noreferrer" className="button button--flex">

@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Data = () => {
     return (
         <div className="home__data">
             <h1 className="home__title">Michelle Chi
             </h1>
-            <h3 className="home__subtitle">Software Developer</h3>
+            <h3 className="home__subtitle">Data Scientist</h3>
             <p className="home__description">
-                I am a fourth-year Computer Science student at Cal Poly SLO, and I am passionate and dedicated to my work in full-stack software development.
+                I am a Computer Science graduate from Cal Poly SLO, and I am passionate and dedicated to my work in data science and analytics.
             </p>
-            <a href="#contact" className="button button--flex">
+            <Link to="/contact" className="button button--flex">
                 Contact Me
                 <svg
                   class="button__icon"
@@ -28,7 +29,7 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg>
-            </a>
+            </Link>
         </div>
     )
 }

@@ -9,7 +9,7 @@ const Home = () => {
             <a href="https://github.com/michellechi" className="home__social-icon">
                 <i class="uil uil-github-alt"></i>
             </a>
-            <a href="mailto:mgchi@calpoly.edu" className="home__social-icon">
+            <a href="mailto:michellechi38@yahoo.com" className="home__social-icon">
                 <i class="uil uil-envelope"></i>
             </a>
         </div>
