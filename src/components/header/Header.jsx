@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from 'react-router-dom';
+import logo from "../../assets/header_MichelleChi.png";
 
 import "./header.css";
 
@@ -28,8 +29,9 @@ const Header = () => {
     <header className="header" id="header">
       <nav className="nav container">
         <Link to="/" className="nav__logo" onClick={() => showMenu(false)}>
-          Michelle Chi
+            <img src={logo} alt="Michelle Chi Logo" className="nav__logo-img" />
         </Link>
+
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">

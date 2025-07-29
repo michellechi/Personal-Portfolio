@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Softskills = () => {
   return (
     <div className="sklls__content">

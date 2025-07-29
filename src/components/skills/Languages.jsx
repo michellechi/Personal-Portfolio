@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Languages = () => {
   return (
     <div className="sklls__content">
