@@ -9,6 +9,7 @@ export const projectsData = [
     id: 1,
     image: polybuddy,
     title: "PolyBuddy",
+    tags: ["JavaScript", "React", "MongoDB"],
     description:
       "PolyBuddy is a mobile application project. It provides an intuitive platform aimed to seamlessly guide students and faculty through the Cal Poly SLO campus, enhacing overall campus experience.",
     demo: "https://mango-coast-050270d10.5.azurestaticapps.net/",
@@ -18,6 +19,7 @@ export const projectsData = [
     id: 2,
     image: library,
     title: "Library Management App",
+    tags: ["Java", "MySQL", "Apache Maven"],
     description:
       "Libaray Management App is a user-friendly interface for users and admin. It has key functionalities including login, book management, returns, search, and automated fine capabilities.",
     demo: "",
@@ -27,6 +29,7 @@ export const projectsData = [
     id: 3,
     image: apptrak,
     title: "AppTrak",
+    tags: ["TypeScript", "Express.js", "MongoDB"],
     description:
       "AppTrak is a streamlined job application tracker designed to simplify and organize the application process.",
     demo: "",
@@ -36,8 +39,9 @@ export const projectsData = [
     id: 4,
     image: bitmap,
     title: "Bitmap Image Encoding/Decoding",
+    tags: ["C"],
     description:
-      "Bitmap Image Encoding/Decoding is the process of converting image data into a binary format for storage and reconstructing the original image, often used in BMP file handling.",
+      "An image encoder and decoder to convert image data into a binary format and reconstructs the original image.",
     demo: "",
     code: "https://github.com/michellechi/BMP-Image-Encoding-Decoding",
   },
@@ -45,6 +49,7 @@ export const projectsData = [
     id: 5,
     image: simulation,
     title: "Interactive Game Simulation",
+    tags: ["Java"],
     description:
       "An interactive game simulation where dynamic entities like DUDEs, FAIRYs, and growing TREES interact within defined rules, navigating, transforming, and influencing their environment.",
     demo: "",

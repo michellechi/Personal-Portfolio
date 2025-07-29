@@ -1,25 +1,18 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from 'react-router-dom';
-import logo from "../../assets/header_MichelleChi.png";
+import logo_lightmode from "../../assets/header_name_lightmode.png";
+import logo_darkmode from "../../assets/header_name_darkmode.png";
 
 import "./header.css";
 
-const Header = () => {
+const Header = ({ theme, setTheme }) => {
   const [Toggle, showMenu] = useState(false);
   const location = useLocation();
-
-  const [theme, setTheme] = useState("light_theme");
-  const [li, setli] = useState("bx bxs-moon");
+    const li = theme === "light_theme" ? "bx bxs-moon" : "bx bxs-sun";
 
   const toggleTheme = () => {
-    if (theme === "light_theme") {
-      setTheme("dark_theme");
-      setli("bx bxs-sun");
-    } else {
-      setTheme("light_theme");
-      setli("bx bxs-moon");
-    }
-  };
+    setTheme(theme === "light_theme" ? "dark_theme" : "light_theme");
+    };
 
   useEffect(() => {
     document.documentElement.className = theme;
@@ -29,7 +22,11 @@ const Header = () => {
     <header className="header" id="header">
       <nav className="nav container">
         <Link to="/" className="nav__logo" onClick={() => showMenu(false)}>
-            <img src={logo} alt="Michelle Chi Logo" className="nav__logo-img" />
+            <img
+                src={theme === "light_theme" ? logo_lightmode : logo_darkmode}
+                alt="Michelle Chi Logo"
+                className="nav__logo-img"
+            />
         </Link>
 
 

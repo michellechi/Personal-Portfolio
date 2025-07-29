@@ -19,6 +19,16 @@ const WorkItems = ({ item, theme }) => {
           {item.title}
         </h3>
 
+        {item.tags && (
+          <div className="work__tags">
+            {item.tags.map((tag, index) => (
+              <span key={index} className="work__tag">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
         <span className="work__description">{item.description}</span>
 
         <div className="work__check">
@@ -28,12 +38,13 @@ const WorkItems = ({ item, theme }) => {
           >
             Code <i className="uil uil-github-alt"></i>
           </a>
-          <a
+
+          {/* <a
             href={item.demo}
             className={theme ? "work__button button-dark" : "work__button"}
           >
             Demo <i className="uil uil-browser"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
