@@ -11,7 +11,8 @@ export const projectsData = [
     image: polybuddy,
     title: "PolyBuddy",
     tags: ["JavaScript", "React", "MongoDB"],
-    description: "PolyBuddy is a mobile application project. It provides an intuitive platform aimed to seamlessly guide students and faculty through the Cal Poly SLO campus, enhacing overall campus experience.",
+    description:
+      "PolyBuddy is a mobile application project. It provides an intuitive platform aimed to seamlessly guide students and faculty through the Cal Poly SLO campus, enhacing overall campus experience.",
     demo: "https://mango-coast-050270d10.5.azurestaticapps.net/",
     code: "https://github.com/michellechi/PolyBuddy-App",
   },
@@ -20,7 +21,8 @@ export const projectsData = [
     image: bank,
     title: "Banking Risk Assessment Model",
     tags: ["SQL", "Python", "Tableau", "Excel"],
-    description: "Developed a ML model to predict credit risk and loan default probability using client financial and behavioral data. Built data pipelines and classifiers to improve risk assessment accuracy.",
+    description:
+      "Developed a ML model to predict credit risk and loan default probability using client financial and behavioral data. Built data pipelines and classifiers to improve risk assessment accuracy.",
     demo: "",
     code: "https://github.com/michellechi/Banking-Risk-Assessment-Model",
   },
@@ -29,7 +31,8 @@ export const projectsData = [
     image: library,
     title: "Library Management App",
     tags: ["Java", "MySQL", "Apache Maven"],
-    description: "Libaray Management App is a user-friendly interface for users and admin. It has key functionalities including login, book management, returns, search, and automated fine capabilities.",
+    description:
+      "Libaray Management App is a user-friendly interface for users and admin. It has key functionalities including login, book management, returns, search, and automated fine capabilities.",
     demo: "",
     code: "https://github.com/michellechi/Library-Management-System",
   },
@@ -38,7 +41,8 @@ export const projectsData = [
     image: simulation,
     title: "Interactive Game Simulation",
     tags: ["Java"],
-    description:  "An interactive game simulation where dynamic entities like DUDEs, FAIRYs, and growing TREES interact within defined rules, navigating, transforming, and influencing their environment.",
+    description:
+      "An interactive game simulation where dynamic entities like DUDEs, FAIRYs, and growing TREES interact within defined rules, navigating, transforming, and influencing their environment.",
     demo: "",
     code: "https://github.com/michellechi/InteractiveVirtualSimulation",
   },
@@ -56,8 +60,9 @@ export const projectsData = [
     image: bitmap,
     title: "Bitmap Image Encoding/Decoding",
     tags: ["C"],
-    description: "An image encoder and decoder to convert image data into a binary format and reconstructs the original image.",
+    description:
+      "An image encoder and decoder to convert image data into a binary format and reconstructs the original image.",
     demo: "",
     code: "https://github.com/michellechi/BMP-Image-Encoding-Decoding",
-  }
+  },
 ];
