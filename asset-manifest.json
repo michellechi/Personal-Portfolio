@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8366a3a1.css",
-    "main.js": "/static/js/main.00edc7b7.js",
+    "main.css": "/static/css/main.a3d133b7.css",
+    "main.js": "/static/js/main.c2c1edfb.js",
     "static/media/about_picture.png": "/static/media/about_picture.f4073699637ee72ffc59.png",
     "static/media/home_picture.png": "/static/media/home_picture.16946b8799ee3adf7bde.png",
     "static/media/polybuddy.jpg": "/static/media/polybuddy.c414933cf6e73f243ef9.jpg",
@@ -12,12 +12,13 @@
     "static/media/bitmap.jpg": "/static/media/bitmap.b1c68b8e1d9ee54f871f.jpg",
     "static/media/header_name_darkmode.png": "/static/media/header_name_darkmode.50f7d0f25e6e4572c254.png",
     "static/media/resume.pdf": "/static/media/resume.8f3d6a82680f7d4a433e.pdf",
+    "static/media/bank.jpg": "/static/media/bank.3b59d47137b82e91b79d.jpg",
     "index.html": "/index.html",
-    "main.8366a3a1.css.map": "/static/css/main.8366a3a1.css.map",
-    "main.00edc7b7.js.map": "/static/js/main.00edc7b7.js.map"
+    "main.a3d133b7.css.map": "/static/css/main.a3d133b7.css.map",
+    "main.c2c1edfb.js.map": "/static/js/main.c2c1edfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8366a3a1.css",
-    "static/js/main.00edc7b7.js"
+    "static/css/main.a3d133b7.css",
+    "static/js/main.c2c1edfb.js"
   ]
 }
